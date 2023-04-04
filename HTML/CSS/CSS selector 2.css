@@ -1,0 +1,32 @@
+/* Descendent Selector */
+
+main p{
+    color: blueviolet;
+}
+
+/* Child Selector */
+
+h1 > p{
+    color: brown;
+}
+
+/* Sibling Selector target the <P> after the <section>. It target just after their parent tag */
+
+section + p{
+    color: yellow;
+
+}
+/* General selector target all the after their parent tag*/
+
+section ~ p{
+    color: red;
+}
+/* This is a attribute selector,target=_blank open the link in new tab */
+[target="_blank"] {
+    color: limegreen;
+    text-decoration: none;
+}
+
+[alt~="PW"] {
+    background-color: darkblue;
+}

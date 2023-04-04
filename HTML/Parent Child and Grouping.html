@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Child and Grouping</title>
+</head>
+<body>
+    <!-- Parent Child -->
+    <!-- div>p>li -->
+    <div>
+        <p>
+            <li></li>
+        </p>
+    </div>
+    <!-- div>p>p>li>li -->
+    <div>
+        <p>
+            <p>
+                <li>
+                    <li></li>
+                </li>
+            </p>
+        </p>
+    </div>
+    <!-- div*5 -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!-- For duplicating press Shift + Alt + down or up direction key -->
+    <!-- div>p>p>li*5 -->
+    <div>
+        <p>
+            <p>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </p>
+        </p>
+    </div>
+    <!-- div.class1>p.classp>p#un1>li*5 -->
+    <div class="class1">
+        <p class="classp">
+            <p id="un1">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </p>
+        </p>
+    </div>
+    <!--Sibling (brotherhood) -->
+    <!-- div>p+p+p -->
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <!-- p+p+p -->
+    <p></p>
+    <p></p>
+    <p></p>
+    <!-- ul>li*10 -->
+    <!-- multiplication -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- Grouping -->
+    <!-- div>(nav>li*5)+section -->
+    <div>
+        <nav>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </nav>
+        <section></section>
+    </div>
+</body>
+</html>
