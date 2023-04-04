@@ -1,0 +1,29 @@
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element Selector */
+h1{
+    color: magenta;
+}
+/* p{
+    color: red;
+} */
+/* Class Selector */
+.pra{
+    color: blue;
+}
+.hello{
+    font-size: 60px;
+}
+/* ID Selector */
+#id1{
+    color: sandybrown;
+}
+/* Selector list  */
+.class1, .class7, .class10{
+    background-color: aqua;
+    font-size: 20px;
+    color:gray;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- HTML forms -->
+    <!-- <input> gives area to feed data -->
+    <!-- Enter key used to submit data -->
+    <!-- <br> used to give space between two lines -->
+    <!-- <textarea> gives the multiline text area -->
+    <!-- "id" attribute used to give unique feature -->
+    <!-- <label> used to show, what is textarea for -->
+        <!-- "for" highlight the text area when "id" and "for" is same -->
+        <!-- "type" attribute show the format of textarea -->
+        <!-- "name" attribute used to show server what is written in textarea -->
+        <!-- <fieldset> give the border around the form -->
+            <!-- <legend> write on the top of border about the form -->
+    <form>
+        <fieldset> 
+            <legend>User details!!!</legend>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="username">
+            <br>
+            <br>
+            <label for="address">Please enter your address:</label>
+            <textarea name="" id="address" cols="40" rows="10" name="useraddress"></textarea>
+            <br>
+            <br>
+           <label for="dob">Date of Birth:</label>
+           <input type="date" id="dob" name="userdob">
+           <br>
+           <br>
+           <label for="password">Enter your password</label>
+           <input type="password" id="password" name="userpassword">
+           <br>
+           <br>
+           Select your Gender:
+           <br>
+           <label for="male">Male</label>
+           <input type="radio" id="male" name="gender"> 
+           <br>
+           <label for="female">Female</label>
+           <input type="radio" id="female" name="gender">
+           <br>
+           <br>
+           Select favourite movies: <br>
+           <label for="avengers">Avengers</label>
+           <input type="checkbox" name="avengers" id="avengers">
+           <br>
+           <label for="ironman">Ironman</label>
+           <input type="checkbox" name="ironman" id="ironman">
+           <br>
+           <label for="thor">Thor</label>
+           <input type="checkbox" name="thor" id="thor">
+           <br>
+           <br>
+           <input type="Submit">
+    </fieldset>
+       
+    </form>
+</body>
+</html>
