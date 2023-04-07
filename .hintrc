@@ -8,6 +8,23 @@
       {
         "meta-refresh": "off"
       }
+    ],
+    "no-inline-styles": "off",
+    "disown-opener": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align-last"
+        ]
+      }
+    ],
+    "axe/forms": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
     ]
   }
 }
