@@ -35,7 +35,7 @@ let myName = "Ayush"
 // const for constant (if you don't want to change)
 
 myName = "Ayush Kumar"
-
+console.log(myName);
 
 let highScore = 300
 console.log(highScore);
