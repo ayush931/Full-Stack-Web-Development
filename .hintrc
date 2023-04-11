@@ -15,7 +15,8 @@
       "default",
       {
         "ignore": [
-          "text-align-last"
+          "text-align-last",
+          "text-emphasis"
         ]
       }
     ],
@@ -29,8 +30,15 @@
     "axe/name-role-value": [
       "default",
       {
-        "button-name": "off"
+        "button-name": "off",
+        "link-name": "off"
       }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 110",
+    "not firefox <= 111"
+  ]
 }
