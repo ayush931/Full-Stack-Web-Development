@@ -61,4 +61,3 @@ console.log("Final price of DSA course:", pwDsaCourse + gstOnCourses);
 console.log("Answer is:", 5 % 2); // % gives the remainder.
 console.log("Answer is:", 5 / 2);
 console.log("Answer is:", 5 ** 2); // ** gives the power.
-
