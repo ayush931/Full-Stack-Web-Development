@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.logo {
+    margin: 2px;
+    background-color: white;
+}
+
+section {
+    border-radius: 15px;
+    background-image: url(Asstets/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 89vh;
+}
+
+.first-button {
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 95px;
+    color: white;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.second-button {
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid violet;
+}
+
+ul:hover {
+    cursor: pointer;
+}
