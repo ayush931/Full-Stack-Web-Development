@@ -1,0 +1,84 @@
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    overflow: inherit;
+}
+
+.nav {
+    display: flex;
+    overflow: hidden;
+    gap: 30px;
+    justify-content: space-between;
+    
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.first-button {
+    padding: 10px 10px 10px 10px;
+    background-color: cornflowerblue;
+    border: 0px solid cornflowerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 50px;
+    
+}
+
+.second-button {
+    padding: 10px 10px 10px 10px;
+    background-color: cornflowerblue;
+    border: 0px solid cornflowerblue;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    color: darkslateblue;
+}
+
+
+span {
+    color: aqua;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.first-button:hover {
+    background-color: aliceblue;
+    color: blue;
+    border: 1px solid azure;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+    color: darkturquoise;
+}
+
+.second-button:hover {
+    background-color: aliceblue;
+    color: blue;
+    border: 1px solid azure;
+    cursor: pointer;
+}
