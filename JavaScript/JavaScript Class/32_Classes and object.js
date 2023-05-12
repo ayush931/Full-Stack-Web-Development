@@ -24,6 +24,15 @@ class product {
         console.log("calling a static method");
     }
 
+    get ratingSetter () {
+        console.log(this.#rating);
+    }
+
+    set ratingGetter (r) {
+        if (r < 0) return
+        this.#rating = r;
+    }
+
     // behaviour -> functions -> member functions
 
     display () {
@@ -36,9 +45,14 @@ const p = new product ("Iphone", 100000, 5) // new creates an empty plain object
 // In the above piece of code we are calling the constructor method
 
 console.log(p);
+
+p.ratingSetter = 10
+p.ratingGetter
+
 p.name = "samsung s23"
 console.log(p.name);
 console.log(p.rating);
 
 p.display ()
 product.custom () // call using the class name.
+
