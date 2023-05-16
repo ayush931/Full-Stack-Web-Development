@@ -110,3 +110,18 @@ while (newI <= 5) {
     newI = newI + 1
 }
 
+for (let a = 0; a <= 5; a++) {
+    if (a == 3) {
+        break;
+    }
+    console.log(a);
+}
+
+console.log(".....................");
+
+for (let a = 0; a <= 5; a++) {
+    if (a == 3) {
+        continue;
+    }
+    console.log(a);
+}
